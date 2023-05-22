@@ -1,0 +1,255 @@
+@charset "utf-8";
+@import url("MontserratAlternates_Light/stylesheet.css");
+@import url("Quicksand_Regular/stylesheet.css");
+@import url("Quicksand_Medium/stylesheet.css");
+
+
+
+
+header h1  {
+	font-family: "Urbanist ExtraBold";
+	color: #FFFFFF;
+	font-size: 51px;
+	text-align: center;
+	margin-top: -27px;
+
+
+}
+header h2 {
+    font-family: "Montserrat Regular";
+    color: #FFFFFF;
+    font-size: 19px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 27px;
+    text-align: center;
+    margin-top: -25px;
+
+}
+.img_1 {
+	width: 12%;
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+nav {
+	background-color: #CDE3EB;
+	text-align: center;
+	margin-top: -17px;
+}
+main   {
+    background-color: #F3E4EE;
+    margin-top: -20px;
+}
+main section  {
+    background-color: #F8FBFC;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 154px;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 20px;
+}
+
+
+.menu {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 182px;
+    height: 3px;
+    margin-top: 27px;
+    margin-bottom: 19px;
+    font-family: "Quicksand Medium";
+    color: #F38DA5;
+    background-color: #FFFFFF;
+    margin-right: 13px;
+    margin-left: 13px;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding-top: 23px;
+    font-size: 16px;
+    padding-bottom: 42px;
+}
+
+
+
+
+header {
+	background-color: #EF8CA6;
+
+
+}
+main section h4 {
+    font-family: "Quicksand Regular";
+    font-size: 36px;
+    color: #AADBFF;
+    text-align: center;
+}
+section p {
+	font-family: "MontserratAlternates Light";
+	color: #320311;
+	width: 88%;
+}
+.img_2 {
+	width: 26%;
+	float: left;
+	margin-right: 218px;
+	padding-bottom: 27px;
+}
+body footer {
+    background-color: #320311;
+    height: 117px;
+    margin-top: -22px;
+}
+body footer h5 {
+	color: #FFD465;
+	text-align: center;
+	padding-top: 48px;
+	font-family: "Montserrat Regular";
+}
+footer h5 p {
+    text-align: left;
+}
+
+
+a {
+    color: #EF8CA6;
+    text-decoration: none;
+
+}
+ul li a:link {
+    color: #EF8CA6;
+}
+
+ul li a:hover {
+    color: #3C92DB;
+    font-size: 18px;
+}
+.flex-container_suno {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_3 {
+    width: 84%;
+    text-align: center;
+    margin-left: 26px;
+}
+.img_4 {
+    width: 102%;
+}
+.flex-conteiner_stres {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-conteiner_stres div {
+    width: 301px;
+    height: 256px;
+    overflow-y: scroll;
+}
+.img_5 {
+    width: 103%;
+}
+
+#container {
+  display: flex;
+  width: 300px;
+  position: relative;
+}
+
+.footer {
+    float: left;
+    margin-right: 139px;
+    margin-left: 139px;
+    color: #FFD465;
+  
+}
+.img_f {
+	width: 8%;
+	float: left;
+	margin-left: 101px;
+	margin-right: -110px;
+}
+
+.menu {
+    text-decoration: none;
+}
+
+
+div.img {
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid #4F1420;
+    float: left;
+    width: 302px;
+    display: inline-block;
+}
+
+div.img:hover {
+    border: 2px solid #ECA7B6;
+}
+
+div.img img {
+    width: 100%;
+}
+
+div.desc {
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+    font-family: "Montserrat Regular";
+}
+.img .desc strong {
+    color: #EF8CA6;
+}
+
+
+
+.img_31 {
+
+}
+.formulario h6 {
+    font-family: "Quicksand Medium";
+    font-size: 25px;
+}
+form p {
+    text-align: center;
+}
+form #enviar  {
+    margin: 0 auto;
+    display: block;
+    width: 11%;
+
+
+}
+.formulario form .aviso {
+    font-size: 11px;
+}
+.inst {
+    margin: 0 auto;
+    display: block;
+}
+#container .footer a {
+    color: #FFD465;
+}
+
+@media (max-width: 1000px) {
+  main section {
+    background-color: #EF8CA6;
+	 
+  }
+	main section h4 {
+		color: #FFD465;
+	}
+	main section p {
+		color: #FFFFFF;
+	}
+}
